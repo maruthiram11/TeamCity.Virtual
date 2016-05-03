@@ -117,7 +117,7 @@ public class VagrantFilePatcher {
   }
 
   @NotNull
-  public static String escapePath(@NotNull final String path) {
+  public static String escapedPath(@NotNull final String path) {
     if (File.separatorChar == '\\') {
       return path.replace("\\", "\\\\");
     }
